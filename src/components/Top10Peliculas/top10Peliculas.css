@@ -1,0 +1,60 @@
+.movie-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 2rem;
+ 
+}
+
+.movie-carousel h2 {
+  color: red;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+/* .slick-center .movie-card img {
+  transform: scale(1.2); 
+  transition: transform 0.3s;
+} */
+
+.movie-card img {
+  
+  width: 100%;
+  min-height: 20vh;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  padding: 1rem;
+  will-change: min-height;
+  transition: min-height 0.5s ease-in-out;
+ 
+}
+
+.movie-card img:hover {
+ 
+  min-height: 25vh;
+ 
+  
+}
+
+.movie-card h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.slick-slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+/* .slick-slider {
+  .slick-center .movie-card {
+    transform: translateY(-10px); /
+  }
+} */

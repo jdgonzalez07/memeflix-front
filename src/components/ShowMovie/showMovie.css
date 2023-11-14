@@ -1,0 +1,13 @@
+.showMovie-container{
+    background-color: #161515; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media (max-width:1000px){
+    .showMovie-container img{
+        width: 90%;
+    }
+}
