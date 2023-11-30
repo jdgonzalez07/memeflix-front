@@ -1,0 +1,29 @@
+.container-inicioMovies {
+  background-color: #161515;
+  min-height: 100vh;
+}
+.search-input{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.search-input input{
+    margin-top: 2rem;
+}
+
+.cards-movies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card-movie{
+  background-color: #000000;
+  color: #fff;
+  
+}
+
+.title-card{
+  padding: 0.3rem 0;
+}

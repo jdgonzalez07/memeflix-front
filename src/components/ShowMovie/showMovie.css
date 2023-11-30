@@ -1,13 +1,130 @@
-.showMovie-container{
-    background-color: #161515; ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.showMovie-container {
+  background-color: #161515;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-@media (max-width:1000px){
-    .showMovie-container img{
-        width: 90%;
-    }
+.container-btn-volver {
+  display: flex;
+  margin: 1rem;
+}
+
+.info-movie-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-description {
+  margin-top: 1rem;
+  background-color: #1d1c1c71;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-description h3 {
+  color: red;
+}
+.container-description p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  width: 60%;
+}
+.container-actors {
+  margin-top: 1rem;
+  background-color: #1d1c1c71;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.container-actors h3 {
+  color: red;
+}
+.container-actors ul li {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-movie-detail {
+  background-color: red;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.btn-movie-detail:hover {
+  background-color: #fff;
+  color: red;
+}
+.container-trailer-movie{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+/* .trailer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+} */
+
+.container-trailer-movie button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border: none;
+  margin: 1rem 2.5rem;
+  justify-content: space-around;
+}
+
+.container-trailer-movie button:hover {
+  background-color: #fff;
+  color: red;
+}
+
+@media (max-width: 1000px) {
+  .info-movie-detail img {
+    width: 90%;
+  }
+  .container-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+
+  .container-actors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .trailer {
+    width: 300px;
+    height: 260px;
+  }
 }

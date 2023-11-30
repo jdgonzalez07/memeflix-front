@@ -1,8 +1,11 @@
 import React from 'react'
+import InicioMovie from '../../components/InicioMovie/InicioMovie'
+import './movies.css'
+
 
 function Movies() {
   return (
-    <div><h3>Estoy en movies</h3></div>
+    <div className='container-movies'><InicioMovie/></div>
   )
 }
 

@@ -1,16 +1,15 @@
-
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import LayoutInicio from "./pages/Layouts/LayoutInicio";
-import Home from './pages/Home/Home';
-import Movies from './pages/Movies/Movies';
-import Detail from './pages/Detail/Detail';
-import Series from './pages/Series/Series';
+import Home from "./pages/Home/Home";
+import Movies from "./pages/Movies/Movies";
+import Detail from "./pages/Detail/Detail";
+import Series from "./pages/Series/Series";
+
+
 
 function App() {
-  
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -32,6 +31,7 @@ function App() {
           path: "/:title",
           element: <Detail />,
         },
+        
       ],
     },
   ]);

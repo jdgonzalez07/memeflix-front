@@ -1,11 +1,13 @@
-import React from 'react'
-import ShowMovie from '../../components/ShowMovie/ShowMovie'
+import { Link as Anchor } from "react-router-dom";
+import ShowMovie from "../../components/ShowMovie/ShowMovie";
+import "./detail.css";
 
 function Detail() {
-    
   return (
-    <><ShowMovie/></>
-  )
+    <div className="container-detail">
+      <ShowMovie />
+    </div>
+  );
 }
 
-export default Detail 
+export default Detail;
