@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import server from '../../../axios';
-import './Top10Peliculas.css'
+import './top10Peliculas.css'
 import { Link as Anchor } from "react-router-dom";
 
 const MovieCarousel = () => {
